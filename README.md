@@ -1,8 +1,8 @@
-# React + Vite
+# Simple Counter with State Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Objective: Demonstrate React’s useState hook for managing local state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Description: A basic counter app with increment, decrement, and reset buttons. Each button updates the counter’s value, showcasing state changes.
+
+Feature Focus: Local state management
