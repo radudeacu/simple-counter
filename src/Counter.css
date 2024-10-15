@@ -1,0 +1,57 @@
+/* Counter.css */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .counter-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  .counter-card h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .counter-card h3 {
+    color: #ffffff;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .counter-card button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-card button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+
+  /* Extra GLASS example*/
+
+  /* .glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+} */
